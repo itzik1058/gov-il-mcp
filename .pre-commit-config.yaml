@@ -5,7 +5,7 @@ repos:
   - id: commitizen
   - id: commitizen-branch
     stages:
-    - push
+    - pre-push
 - repo: https://github.com/astral-sh/ruff-pre-commit
   rev: v0.12.7
   hooks:
